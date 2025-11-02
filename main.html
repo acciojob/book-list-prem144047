@@ -10,19 +10,25 @@
 	<!-- the entire body must be written by student -->
 	<h1>MyBookList</h1>
 	<div class="form-group">
-		<input id="title">
-		<input id="author">
-		<input id="isbn">
+		<input type="text" id="title">
+		<input id="author" type="text">
+		<input id="isbn" type="text">
 		<button id="submit">submit</button>
 	</div>
-	<table class="table table-striped">
-		<tr>
+	<div>
+		<table class="table table-striped">
+		<thead>
+			<tr>
 			<th>Title</th>
 			<th>Author</th>
 			<th>ISBN#</th>
 		</tr>
-		
+		</thead>
+			<tbody id="book-list">
+				 <!-- Book entries will go here -->
+			</tbody>
 	</table>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
